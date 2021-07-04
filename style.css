@@ -31,6 +31,7 @@ h1 span{
 section{
 
 display: flex;
+margin-bottom: 110px;
 
 }
 
@@ -42,11 +43,16 @@ display: flex;
 .img{
   padding-right: 15%;
 }
-.anchor-buttom{
+.anchor-button{
   text-decoration: none;
   color: white;
   background: linear-gradient(45deg,salmon,tomato);
   padding: 10px 40px;
   border-radius: 5px;
   font-size: 900;
+}
+.dream-area{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
